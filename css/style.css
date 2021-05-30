@@ -53,10 +53,11 @@ header{
     height: 100%;
     min-height: 100vh;
 
-    background: url(../img/intro.jpg) no-repeat center fixed #050403;
-    background-size: cover;
+    background: url(../img/intro.jpg) no-repeat fixed #050403;
+    background-position: center center;
     -moz-background-size: cover;
-    -o-background-size: cover;
+      -o-background-size: cover;
+         background-size: cover;
 }
 header::before{
     position: absolute;
@@ -1038,6 +1039,17 @@ footer > .footer_header{
     .heading_masters h2{
         font-size: 34px;
     }
+    header{
+        background: url(../img/intro_mobile.jpg) no-repeat fixed #050403;
+        background-position: center center;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+             background-size: cover;
+    }
+    .entertainment{
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ),
+    url('../img/entertainment_mobile.jpg') fixed center / cover;
+}
 }
 @media (max-width: 490px){
     .adress a{
