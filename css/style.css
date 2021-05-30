@@ -55,6 +55,8 @@ header{
 
     background: url(../img/intro.jpg) no-repeat center fixed #050403;
     background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 header::before{
     position: absolute;
