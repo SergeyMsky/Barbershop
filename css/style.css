@@ -54,7 +54,7 @@ header{
     min-height: 100vh;
 
     background: url(../img/intro.jpg) no-repeat center fixed #050403;
-    background-size: 100% auto;
+    background-size: cover;
 }
 header::before{
     position: absolute;
@@ -378,7 +378,7 @@ nav{
     text-align: justify;
 }
 .card_about img{
-    width: 300px;
+    width: 100%;
 }
 .heading_about h2{
     font-size: 38px;
