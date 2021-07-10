@@ -51,7 +51,6 @@ AOS.init({
   once: true, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
 });
 
 
@@ -88,8 +87,6 @@ btn.on('click', function(e) {
 });
 
 
-
-
 $(document).ready(function() {
   $('.header_burger').click(function(event) {
     $('.header_burger,.menu').toggleClass('active');
@@ -97,6 +94,6 @@ $(document).ready(function() {
   })
 });
 $('.menu').click(function(){
-       $('.header_burger, .menu').removeClass('active');
-       $('body').removeClass('lock');
+    $('.header_burger, .menu').removeClass('active');
+    $('body').removeClass('lock');
 });
