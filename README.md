@@ -1,1 +1,1 @@
-# https://sergeymsky.github.io/SmoothHead/
+Landing page - Barbershop
